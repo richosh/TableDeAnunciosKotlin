@@ -98,4 +98,14 @@
         app:layout_constraintStart_toStartOf="@+id/btSignUpIn"
         app:layout_constraintTop_toBottomOf="@+id/edSingPassword" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/ac_sign_copy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSignUpIn"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="79dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

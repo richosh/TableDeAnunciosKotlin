@@ -26,4 +26,5 @@
     <string name="sign_in_error">Неудалось войти</string>
     <string name="send_verification_email_error">Неудалось отправить email для потверждения!</string>
     <string name="send_verification_done">На Вашу почту отправленна ссылка для потверждения вашего аккаунта, пожалуйста подтвердите Ваш аккаунт!</string>
+    <string name="ac_sign_copy">Copyright by Richi</string>
 </resources>
