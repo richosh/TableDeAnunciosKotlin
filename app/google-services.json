@@ -1,0 +1,39 @@
+ {
+  "project_info": {
+    "project_number": "8505405747",
+    "project_id": "tabladkotlin-5ba6c",
+    "storage_bucket": "tabladkotlin-5ba6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8505405747:android:726a1bfb6c225b9886ce46",
+        "android_client_info": {
+          "package_name": "kg.elchytrans.tabledeanuncioskotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8505405747-47jsto97oglpeo35de22i1el8re5l7b8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE9lNDjDGwScEIb7hSSO3nKky8NR6GOy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8505405747-47jsto97oglpeo35de22i1el8re5l7b8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
