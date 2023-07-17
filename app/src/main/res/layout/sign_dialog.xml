@@ -43,23 +43,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edSignEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/edSignEmail"
+        />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btSignUpIn"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="3dp"
+        android:padding="13dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:text="@string/sign_up_action"
+        app:buttonSize="standard"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/edSignEmail"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/edSingPassword"
         app:layout_constraintTop_toBottomOf="@+id/edSingPassword"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="MissingClass" />
+        app:layout_constraintVertical_bias="0.431"
+        app:strokeWidth="0.2dp"
+
+        />
 
     <Button
         android:id="@+id/btForgetP"
@@ -91,21 +99,25 @@
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
         android:text="Button"
         app:buttonSize="standard"
         app:layout_constraintBottom_toTopOf="@+id/btSignUpIn"
-        app:layout_constraintEnd_toEndOf="@+id/btSignUpIn"
-        app:layout_constraintStart_toStartOf="@+id/btSignUpIn"
-        app:layout_constraintTop_toBottomOf="@+id/edSingPassword" />
+        app:layout_constraintEnd_toEndOf="@+id/edSingPassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edSingPassword"
+        app:layout_constraintTop_toTopOf="@+id/edSingPassword"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="@string/ac_sign_copy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btSignUpIn"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="79dp" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="82dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
